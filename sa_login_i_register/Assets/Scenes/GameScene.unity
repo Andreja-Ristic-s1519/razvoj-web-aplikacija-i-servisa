@@ -1078,6 +1078,7 @@ GameObject:
   - component: {fileID: 1939990309}
   - component: {fileID: 1939990308}
   - component: {fileID: 1939990307}
+  - component: {fileID: 1939990310}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -1168,6 +1169,20 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1939990310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939990305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebd89bfd88499fa4abe2ecce4a6de12d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerDisplay: {fileID: 125845984}
+  scoreDisplay: {fileID: 392282493}
 --- !u!1 &2057697374
 GameObject:
   m_ObjectHideFlags: 0
@@ -1312,6 +1327,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   segmentPrefab: {fileID: 3189427769608501789, guid: f6bfc95a411da7d4298beb965e145869, type: 3}
+  scoreDisplay: {fileID: 392282493}
+  rezultat: 0
 --- !u!61 &2079858004
 BoxCollider2D:
   m_ObjectHideFlags: 0

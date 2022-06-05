@@ -24,4 +24,19 @@ public class MainMenu : MonoBehaviour
    {
     SceneManager.LoadScene(2);
    }
+
+   public void GoToGame()
+   {
+    SceneManager.LoadScene(3);
+   }
+
+   public void GoToLogout()
+   {
+      SceneManager.LoadScene(0);
+   }
+
+   public void GoToExit()
+   {
+      SceneManager.LoadScene(5);
+   }
 }
